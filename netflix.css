@@ -1,0 +1,16 @@
+#cabecalho{
+    display: flex;
+}
+body{
+    background-color: black;
+}
+#logo{
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+}
+#texto{
+    font-size: 20px;
+    color:white;
+    margin-bottom: 5px;
+}
