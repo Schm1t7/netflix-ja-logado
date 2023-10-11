@@ -15,3 +15,32 @@ body{
     position: relative;
     margin-top: 20px;
 }
+
+#dark{
+    width: 180px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    right: 600px;
+    transition: transform 1s;
+    transform: translateX(0) scale(1);    
+}
+#dark:hover,
+#dark:focus{
+    transform: translateX(10px) scale(1.2);
+}
+
+#breakingbad{
+    width: 180px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    right: 500px;
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+    border: 5px;
+}
+#breakingbad:hover,
+#breakingbad:focus{
+    transform: translate(10px) scale(1.2);
+}
